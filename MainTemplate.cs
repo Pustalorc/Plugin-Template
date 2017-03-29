@@ -10,7 +10,7 @@ namespace PluginTemplate
         // Class name.
         public static PluginTemplate Instance;
 
-        // This are the default translations that are generated. The first part is the name or identifier and the 2nd part
+        // These are the default translations that are generated. The first part is the name or identifier and the 2nd part
         // Is the string that will be sent when calling the translation.
         public override TranslationList DefaultTranslations
         {
