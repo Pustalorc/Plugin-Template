@@ -39,7 +39,7 @@ namespace PluginTemplate
             // Any variables or things you had to do when the plugin loaded, like handle events, etc. should be undone here.
             // Example with an event: 
 
-            Rocket.Core.Logging.Logger.LogWarning("Tempban by persiafighter has been unloaded!");
+            Rocket.Core.Logging.Logger.LogWarning("Plugin Template has been unloaded!");
         }
     }
 }
