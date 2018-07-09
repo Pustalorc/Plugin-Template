@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net35;net461</TargetFrameworks>
+    <AssemblyName>Example Plugin</AssemblyName>
+    <RootNamespace>persiafighter.Plugins.ExamplePlugin</RootNamespace>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>ExamplePlugin</PackageId>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageTags>RocketMod Universal</PackageTags>
+    <PackageLicenseUrl>https://github.com/persiafighter/Plugin-Template/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://rocketmod.net/</PackageProjectUrl>
+    <PackageAuthors>persiafighter</PackageAuthors>
+    <PackageOwners>persiafighter</PackageOwners>
+    <Version>1.0.0.0</Version>
+    <PackageVersion>1.0.0.0</PackageVersion>
+    <Authors>persiafighter</Authors>
+    <Description>Example RocketMod plugin that works universally.</Description>
+    <Copyright>persiafighter</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Rocket.Core" Version="5.0.0.575"/>
+  </ItemGroup>
+</Project>
